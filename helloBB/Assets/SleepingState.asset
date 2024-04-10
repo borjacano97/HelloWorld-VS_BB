@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SleepingState
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Sleeping","summary":null,"pan":{"x":-90.56921,"y":61.63185},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-302.0,"y":-69.0},"guid":"32f9fe59-64a5-4b9a-be47-83cbd40b0741","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"SleepSpot","$type":"System.String"}},"position":{"x":-324.0,"y":36.0},"guid":"9fe5871a-c321-4ec2-a90f-614ebfedb432","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"brickAsset":0,"oldBrickAsset":null,"_behaviourInputs":{"SleepSpot":{"nullMeansSelf":false,"allowsNull":false,"unit":{"$ref":"13"}},"HelloBBMachine":{"nullMeansSelf":false,"allowsNull":false,"unit":{"$ref":"13"}}},"_behaviourOutputs":{},"goodDefined":true,"defaultValues":{"Pause":{"$content":false,"$type":"System.Boolean"},"RestartWhenFinished":{"$content":false,"$type":"System.Boolean"},"MaxTaskPerTick":{"$content":500,"$type":"System.Int32"}},"position":{"x":-104.0,"y":-99.0},"guid":"d4ad2be5-71d1-4522-bb56-76350786df59","$version":"A","$type":"BehaviorTreeExecutor","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"HelloBBMachine","$type":"System.String"},"object":null},"position":{"x":-332.0,"y":176.0},"guid":"04ad2428-af43-4e9f-87b4-83dceeb807cd","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"19"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"Update","guid":"2bf3d9b2-f8b7-4ca9-a19b-d08640f1872e","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"SleepSpot","guid":"a6a1747a-9076-4cce-a877-0b42f62bde16","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"HelloBBMachine","guid":"4ef8b37b-6df9-4d74-a3ed-3c7ff4c22d6c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: d0b1211b05bea294483b57d22eaa2ff1, type: 2}
